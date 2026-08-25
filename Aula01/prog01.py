@@ -2,6 +2,8 @@ import os
 os.system("cls")
 print("exc pelo vscode")
 
+# operacoes aritmeticas
+
 num1 = int(input("digite num1: "))
 num2 = int(input("digite num2: "))
 

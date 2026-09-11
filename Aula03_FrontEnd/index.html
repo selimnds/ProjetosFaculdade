@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+
+<body>
+    <h1>form de cadastro</h1>
+    <hr>
+    <form action="">
+        <fieldset>
+            <legend>dados</legend>
+            <h3>forneça seus dados onegaii >//< </h3>
+                    <label for="nome">nome:</label> <br>
+                    <input type="text" name="nome" placeholder="nomenomenomenome" required> <br> <br>
+
+                    <label for="email">email</label> <br>
+                    <input type="email" name="email" placeholder="email@email.com"> <br> <br>
+
+                    <label for="senha">senha</label> <br>
+                    <input type="password" name="senha" placeholder="nao pode ser senha123">
+
+                    <h3>selecione gender</h3>
+                    <input type="radio" name="sexo" id="sexo" value="m">
+                    <label for="sexo">masc</label>
+                    <br>
+                    <input type="radio" name="sexo" id="sexo" value="f">
+                    <label for="sexo">fem</label>
+                    <br>
+                    <input type="radio" name="sexo" id="sexo" value="o">
+                    <label for="sexo">guilherme</label>
+                    <br>
+        </fieldset>
+
+        <h3>meios de transportation 🚏</h3>
+        <input type="checkbox" name="transportation" id="transportation" value="car">
+        <label for="transportation">car</label> <br>
+        <input type="checkbox" name="transportation" id="transportation" value="car">
+        <label for="transportation">bus</label> <br>
+        <input type="checkbox" name="transportation" id="transportation" value="car">
+        <label for="transportation">cptm metro trem</label> <br>
+        <h3>tamanho camisa</h3>
+        <select name="tamanoCamisa" id="">
+            <option value="p">p</option>
+            <option value="m">m</option>
+            <option value="g">g</option>
+            <option value="gg">gg</option>
+            <option value="xgg">xgg (pro otavio)</option>
+        </select>
+
+        <br><br>
+
+        <textarea name="opn" placeholder="reclameAki.com.br"></textarea>
+
+        <br><br>
+
+        <button class="button" type="submit">submitar</button>
+        <button class="button" type="reset">clean</button>
+
+        
+
+        <style>
+            .button {
+                width: 100%;
+                font-size: 100px;
+                background-image: url(img/tavin.jpg);
+                background-position: center;
+            }
+        </style>
+    </form>
+</body>
+
+</html>

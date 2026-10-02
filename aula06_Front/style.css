@@ -1,0 +1,72 @@
+div {
+    color: white;
+}
+div:hover{
+    color: blueviolet;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: red;
+}
+
+input:focus{
+    background-color: pink;
+}
+
+li:first-child{
+    color: orange;
+}
+
+li:last-child{
+    text-transform: uppercase;
+    color: burlywood;
+}
+
+li:nth-child(odd){
+    color: crimson;
+}
+
+li:not(.esseNao){
+    color: saddlebrown;
+}
+
+input:checked{
+    margin-left: 40px;
+    color: red;
+}
+
+input[type='email']:valid{
+    color: green;
+}
+
+input:required{
+    background-color: red;
+}
+
+input:disabled{
+    background-color: grey;
+}
+
+p::first-letter{
+    font-size: 3rem;
+    line-height: 1;
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p::first-line{
+    color: red;
+}
+
+p::selection{
+    background-color: #000000;
+    color: white;
+}
+
+::marker{
+    font-size: 100px;
+}

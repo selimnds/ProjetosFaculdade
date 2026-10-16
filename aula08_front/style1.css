@@ -1,0 +1,43 @@
+.caixa-pai{
+    border: 2px solid #ff0000fd;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+
+.caixa-filhas {
+    border: 2   jpx dotted;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#azul {
+    background-color: lightblue;
+    border-color: blue;
+    color: blue;
+}
+#verde {
+    background-color: lightgreen;
+    border-color: green;
+    color: green;
+}
+#vermelho {
+    background-color: lightcoral;
+    border-color: darkred;
+    color: darkred;
+}
+#laranja {
+    background-color: lightsalmon;
+    border-color: darkred;
+    color: darkred;
+}
+#ciano {
+    background-color: cyan;
+    border-color: darkblue;
+    color: darkblue;
+}
